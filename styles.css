@@ -146,6 +146,8 @@ input{
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr 18fr;
+    padding: 20px;
+    padding-right: 50px;
 }
 
 .cardtainer{
@@ -245,15 +247,22 @@ input{
 .subject{
     font-weight: bold;
     font-size: 20px;
+    display: grid;
+    align-self: end;
 }
 
 .level{
-    margin-top: 20px;
-    margin-left: 20px;
+    display: grid;
+    justify-self: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .info{
     font-size: 12px;
+    margin: 0;
+    display: grid;
+    align-self: center;
 }
 
 .iconcontainer{
